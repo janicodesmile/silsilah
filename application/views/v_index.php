@@ -1,7 +1,7 @@
 <div class="col-lg-12 col-md-12">
 	<div class="panel panel-primary">
 		<div class="panel-heading">
-			Data Kasus korona virus berdasarkan provinsi
+			Data Sisilah keluarga
 			<br>
 			<br>
 			<a href="<?= base_url(); ?>Sisilah/tambah" class="btn btn-info">

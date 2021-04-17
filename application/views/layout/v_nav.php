@@ -1,6 +1,4 @@
 <ul class="nav navbar-nav navbar-left navbar-top-links">
-        <li><a href="<?= base_url('home') ?>"><i class="fa fa-home fa-fw"></i> Indonesia</a></li>
-        <li><a href="<?= base_url('home/global') ?>"> Global</a></li>
     </ul>
 
     <ul class="nav navbar-right navbar-top-links">

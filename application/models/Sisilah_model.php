@@ -50,5 +50,26 @@
 		    $query = $this->db->get();
 		    return $query->result();
 		}
+
+
+
+
+		public function get_all_data()
+  		{
+     	 $this->db->select('*'); 
+        $this->db->from('tb_sisilah');
+        $query = $this->db->get();
+        return $query->result();
+  		}
+
+  		public function get_all_data_by_ortu($ortu)
+  		{
+	     	 $this->db->select('*'); 
+	        $this->db->from('tb_sisilah');
+	        $this->db->where('nama_ortu', $ortu);
+	        $query = $this->db->get();
+	        return $query->result();
+  		}
+
 	}
  ?>

@@ -3,7 +3,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="navbar-header">
-        <a class="navbar-brand" href="index.html">Mantau Doi</a>
+        <a class="navbar-brand" href="<?= base_url(); ?>Sisilah/">Mantau sisilah</a>
     </div>
 
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
